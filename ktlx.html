@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            #box{
+                width: 500px;
+                height: 500px;
+                border: 1px solid #ccc;
+            }
+            #change{
+                width: 500px;
+                height: 500px;
+                border: 1px solid #cccccc;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+           /* var a=1;
+            function fn(){
+                alert(a)
+                 b=2;
+            }
+            fn();
+            alert(b)
+            var a="a"-1;
+            alert(a);*/
+          /*  window.onload=function(){
+                document.getElementById("box").onclick=function(){
+                    this.style.background= "red";
+                }
+            }
+            window.onload=function(){
+                document.getElementById("box").onclick=function(){
+                    this.style.background="red";
+                }
+            }*/
+          /* window.onload=function() {
+               document.getElementById("box").onclick = function () {
+                   this.style.background = "red";
+               }
+           }*/
+           window.onload=function() {
+               document.getElementById("box").onclick = function () {
+                   this.style.background = "red";
+            document.getElementById("change").style.background="yellow";
+               }
+           }
+
+        </script>
+    <div id="box"></div>
+    <div id="change"></div>
+    </body>
+</html>

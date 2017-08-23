@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        #dpn{
+            width: 500px;
+            height: 500px;
+            background: red;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<input type="submit" id="btn" value="开/关">
+<div id="dpn"></div>
+</body>
+</html>
+<script>
+  var obtn = document.getElementById("btn")
+  var odpn = document.getElementById("dpn")
+    obtn.onclick=function () {
+        if(odpn.style.display=="none"){
+            odpn.style.display="block";
+        }else{
+            odpn.style.display="none";
+        }
+    }
+</script>
